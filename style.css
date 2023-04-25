@@ -1,0 +1,47 @@
+.sidebar{
+    background-color: pink;
+}
+.nav{
+    background-color: palevioletred;
+}
+.card{
+    width: 200px;
+    height: 150px;
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hobbies{
+    background-color: aqua;
+}
+.education{
+    background-color: brown;
+}
+.container{
+    display: grid;
+    gap:15px;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    width: 100vw;
+    height: 100vh;
+}
+.sidebar{
+    grid-column: 1/2;
+    grid-row: 1/4;
+}
+.nav{
+    grid-column: 2/4;
+    height: 150px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-column: 2/3;
+}
+.additional{
+    grid-column: 3/4;
+
+}
+ul{
+    list-style: none;
+}
