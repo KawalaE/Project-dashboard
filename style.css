@@ -168,8 +168,21 @@ button{
     justify-content: center;
 
 }
-.contact > div{
+.contact div{
     display: flex;
     gap: 10px;
     align-items: center;
+}
+.card:hover{
+    transform: scale(1.05);
+    border: 2px solid green;
+}
+a{
+    text-decoration: none;
+}
+.project:hover{
+    color: #14532d;
+}
+.git:hover, .linked:hover{
+    color: #14532d;
 }
