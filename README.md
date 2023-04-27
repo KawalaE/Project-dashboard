@@ -15,7 +15,7 @@
 <h2>Acknowledgements:</h2>
 <ul>
     <li><a href="https://tailwindcss.com/docs/customizing-colors">Tailwindcss</a></li>
-    <li><a href="https://undraw.co/illustrations?fbclid=IwAR0OkMW3XYxNyKmAczJ5ObUJ9ANpOfNKPBfPBRssrQsL3vmIBRCyqjStOKU"></a>Page Icon</li>
+    <li><a href="https://undraw.co/license"></a>Page Icon</li>
     <li><a target="_blank" href="https://icons8.com/icon/21278/css3">CSS3</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
     <li><a target="_blank" href="https://icons8.com/icon/PXTY4q2Sq2lG/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
     <li><a target="_blank" href="https://icons8.com/icon/v8RpPQUwv0N8/html-5">Html 5</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a></li>
