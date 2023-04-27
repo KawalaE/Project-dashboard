@@ -4,6 +4,8 @@ let educationIcon = document.getElementById('edu-info');
 let educationInfo = document.querySelector('.education');
 let contactIcon = document.getElementById('contact-info');
 let contactInfo = document.querySelector('.contact');
+let emailInfo = document.querySelector('#email');
+let copyFlag = document.querySelector('.copy');
 
 project.addEventListener('mouseover', ()=>{
    cardsList.forEach(card =>{
@@ -28,4 +30,16 @@ contactIcon.addEventListener('mouseover', ()=>{
 })
 contactIcon.addEventListener('mouseleave', ()=>{
     contactInfo.classList.remove('transform');
+})
+
+emailInfo.addEventListener('click', ()=>{
+    let originalEmail = "edyta.wer.kawala@gmail.com";
+    navigator.clipboard.writeText(originalEmail);
+    copyFlag.textContent = "Copied!";
+})
+emailInfo.addEventListener('mouseout', ()=>{
+    setTimeout(()=>{
+
+    copyFlag.textContent = "";
+    }, 1250)
 })

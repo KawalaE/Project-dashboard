@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects</title>
+    <title>Resume</title>
     <link rel="icon" type="image/svg" href="Pictures/Icons/girl.svg"/>
     <link href="https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
 </head>
 <body>
-    <script src="index.js" defer></script>
     <div class="container">
         <div class="nav">
             <div class="introduction">Hi there!<br> My name is Edyta Kawala and I am aspiring frontend web developer.</div>
         </div>
         <div class="sidebar">
             <div class="image">
-                <img src="Pictures/me.png" alt="Picture of a girl.">
+                <img class="my-pic" src="Pictures/me.jpg" alt="Picture of a girl.">
             </div>
             <ul class="options">
                 <ul>
@@ -37,9 +37,7 @@
                     <li> <img src="Pictures/Icons/language-python.svg" alt="Python icon."> Python </li>
                 </ul>
             </ul>
-
         </div>
-    
         <div class="projects">
             <a href="https://kawalae.github.io/Online-store-data-manipulation/">
                 <div class="card"> 
@@ -105,36 +103,35 @@
                 </div>
             </a>
             
-            
-            
         </div>
         <div class="additional">
-
             <div class="education">
                 <div class="title">Education and IT background</div>
                 <div><strong>Automatic Control and Robotics -BEng</strong>
                     <br>2021 Poznan University of Technology
                 </div>
                 <div><strong>Senior IT Analyst at HCL</strong>
-                    11/2021 - 01/2022
+                    11/2021 - 1/2022
                 </div>
                 <div><strong>Internship at Airoptic Sp. z o.o</strong>
-                    13/2020 - 01/2020
+                    3/2020 - 9/2020
                 </div>
             </div>
 
             <div class="contact">
                 <div class="title">Contact</div>
-                <div> <img src="Pictures/Icons/email-outline.svg" alt="Email icon."> My email</div>
+                <div>
+                    <div id="email"> <img src="Pictures/Icons/email-outline.svg" alt="Email icon."> My email</div>
+                    <div class="copy"></div>
+                </div>
                 <a href="https://github.com/KawalaE"><div class = "git"> <img src="Pictures/Icons/github.svg" alt="Github icon."> My GitHub</div></a>
                 <a href="https://www.linkedin.com/in/edyta-kawala/"><div class="linked"> <img src="Pictures/Icons/linkedin.svg" alt="LinkedIn icon."> My LinkedIn</div></a>
-                <div>Motto <br>“I am still learning.” ~ Michel Angelo</div>
             </div>
-            
         </div>
-        
+        <div class="footer-elements">
+            <a class ="footer"> Created by KawalaE</a>
+            <a class ="footer-git" href="https://github.com/KawalaE/Project-dashboard"><img src="Pictures/Icons/github-mark-purple.svg" alt="GitHub icon." width="30"></a>
+        </div>
     </div>
-    
-
 </body>
 </html>
