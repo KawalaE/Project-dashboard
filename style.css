@@ -173,16 +173,14 @@ button{
     gap: 10px;
     align-items: center;
 }
-.card:hover{
+.transform, .card:hover, .education:hover, .contact:hover{
     transform: scale(1.05);
     border: 2px solid green;
 }
 a{
     text-decoration: none;
 }
-.project:hover{
-    color: #14532d;
-}
-.git:hover, .linked:hover{
+
+.git:hover, .linked:hover, #project:hover, #edu-info:hover, #contact-info:hover{
     color: #14532d;
 }
