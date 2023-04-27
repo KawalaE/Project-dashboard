@@ -162,8 +162,10 @@ button{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    align-items: center;
     justify-content: center;
+}
+.education > div{
+    padding-left: 20px;
 }
 .contact img{
     width: 25px;
