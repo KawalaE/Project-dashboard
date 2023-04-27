@@ -33,13 +33,5 @@ contactIcon.addEventListener('mouseleave', ()=>{
 })
 
 emailInfo.addEventListener('click', ()=>{
-    let originalEmail = "edyta.wer.kawala@gmail.com";
-    navigator.clipboard.writeText(originalEmail);
-    copyFlag.textContent = "Copied!";
-})
-emailInfo.addEventListener('mouseout', ()=>{
-    setTimeout(()=>{
-
-    copyFlag.textContent = "";
-    }, 1250)
+    emailInfo.textContent = "edyta.wer.kawala@gmail.com";
 })
