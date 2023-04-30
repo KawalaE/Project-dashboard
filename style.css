@@ -82,23 +82,31 @@ li img{
 }
 
 .title{
-    color:var(--title);
+    color: var(--card-font);
     font-size: larger;
     font-weight: 300;
 }
 .nav{
     grid-column: 2/4;
-    height: 150px;
+    height: 180px;
     background-color:var(--nav);
     box-shadow: 0px 2px 3px var(--dark-shadow);
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.contacts{
+    display: flex;
+    padding: 40px;
+    gap: 10px;
 }
 .introduction{
     color: #a78bfa;
     font-size: 25px;
     font-weight:600;
-    padding: 100px;
+
 }
 .projects{
     display: grid;
@@ -116,7 +124,6 @@ li img{
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    padding: 10px;
 }
 .card-title{
     color: var(--card-font);
@@ -157,30 +164,24 @@ button{
     min-height: 300px;
     min-width: 150px;
 }
+
 .education{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    justify-content: center;
 }
-.education > div{
-    padding-left: 20px;
-}
-.contact img{
-    width: 25px;
-    height: 25px;
-}
-.contact{
+
+.file{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
     align-items: center;
-}
-.contact div{
-    display: flex;
     gap: 10px;
-    align-items: center;
+}
+.file:hover{
+    transform: scale(1.05);
+    color:#4c1d95;
+}
+.file img{
+    height: 30px;
 }
 .transform, .card:hover{
     transform: scale(1.05);
@@ -192,6 +193,26 @@ a{
 
 .git:hover, #email:hover, .linked:hover, #project:hover, #edu-info:hover, #contact-info:hover{
     color:var(--card-font);
+}
+.contact-img img, .contact-email img{
+    width: 40px;
+}
+.contact-img img:hover{
+    transform:translateY(-10px);
+    
+}
+.contact-email img:hover{
+    transform:translateY(-10px);
+    
+}
+.copy-status{
+    color: #4c1d95;
+    width: 10px;
+    height:10px;
+}
+.email{
+    display: flex;
+    flex-direction: column;
 }
 .footer-elements{
     display:flex;
@@ -216,7 +237,15 @@ a{
     .nav{
         grid-column: 1/2;
         grid-row:1/2;
-        height: 250px;
+        height: 300px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .introduction{
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .sidebar{
         grid-column: 1/2;
