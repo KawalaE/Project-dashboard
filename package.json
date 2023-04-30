@@ -1,0 +1,17 @@
+{
+  "name": "project-dashboard",
+  "version": "1.0.0",
+  "description": "<p align =\"justify\">Admin dashboard-inspired page that displays all my recent projects.</p> <h2><a href=\"https://kawalae.github.io/Project-dashboard/\">Click here to view!</a></h2>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.39.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
