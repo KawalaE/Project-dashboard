@@ -25,9 +25,13 @@ educationIcon.addEventListener("mouseleave", () => {
   educationInfo.classList.remove("transform");
 });
 
-email.addEventListener("click", () => {
-  navigator.clipboard.writeText("edyta.wer.kawala@gmail.com");
-  copyStatus.textContent = "Copied!";
+email.addEventListener("click", async () => {
+  try {
+    await navigator.clipboard.writeText("edyta.wer.kawala@gmail.com");
+    copyStatus.textContent = "Copied!";
+  } catch (err) {
+    console.log("Failed to copy:", err);
+  }
   setTimeout(() => {
     copyStatus.textContent = "";
   }, "1500");
