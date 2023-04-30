@@ -100,6 +100,7 @@ li img{
 .contacts{
     display: flex;
     padding: 40px;
+
     gap: 10px;
 }
 .introduction{
@@ -238,10 +239,12 @@ a{
         grid-column: 1/2;
         grid-row:1/2;
         height: 300px;
-        flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 20px;
+    }
+    .contacts{
+        padding: 10px;
     }
     .introduction{
         padding-left: 20px;
